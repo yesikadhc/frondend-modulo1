@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK REL=StyleSheet href="estilos.css" TYPE="text/css" MEDIA=screen> <!-- Hosja de estios personal-->
+    <LINK REL=StyleSheet href="Styles/index.css" TYPE="text/css" MEDIA=screen> <!-- Hosja de estios personal-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Estilos de fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -12,9 +12,10 @@
 </head>
 <body>
     <header>
-        <nav >
-            <div >
-                <img  src="IMAGEN/yesika.jpg" alt="Yesika Castillo">
+        <nav class="bar" >
+            <!-- avatar -->
+            <div class="foto-top">
+                <img class="perfil" src="IMAGEN/yesika1.jpg" alt="Yesika Castillo">
             </div>
             <ul class="nav-menu" id="menu-bar">
                 <li><a id="m-home" href="#home">Inicio</a></li>
@@ -27,26 +28,31 @@
     </header>
     <main id="home">
         <section>
-            <div >
-                <div >
-                    <span >
-                        <img  src="IMAGEN/yesika.jpg" alt="Yesika Daniela Hernandez C">
-                    </span>
-                    <div>
-                        <div><span ><a href="#" target="_blank"><img src="IMAGEN/Github.png"alt="github"></a></span></div>
-                        <div><span ><a href="#" target="_blank"><img src="IMAGEN/linkedin.png" alt="linkedin"></a></span></div>
-                        <div><span ><a href="#" target="_blank"><img src="IMAGEN/Stack.png" alt="stack overflow"></a></span></div>
+            <div class="Presentacion">
+                <div class="portada">
+                </div>
+                <div class="info">
+                    <div class="avat" >
+                        <span  >
+                            <img class="perfil" src="IMAGEN/yesika1.jpg" alt="Yesika Daniela Hernandez C">
+                        </span>
+                        <div class="redes top">
+                            <div class="iconos"><span ><a href="#" target="_blank"><img class="red-icon" src="IMAGEN/Github.png"alt="github"></a></span></div>
+                            <div class="iconos"><span ><a href="#" target="_blank"><img class="red-icon" src="IMAGEN/linkedin.png" alt="linkedin"></a></span></div>
+                            <div class="iconos"><span ><a href="#" target="_blank"><img class="red-icon" src="IMAGEN/Stack.png" alt="stack overflow"></a></span></div>
+                        </div>
                     </div>
-                </div>
-                <div >
-                    <h1 > Yesika</h1> 
-                    <p >Developer Frontend</p>
-                </div>
-                <div>
-                    <h2>It's me</h2>
-                    <p>
-                        Venezuelana, profissional formada no Engenheiro Industrial, trabalhadora.
-                    </p>
+                    <div class="info-text" >
+                        <h1 > Yesika</h1> 
+                        <p >Developer Frontend</p>
+                    </div>
+                    <div class="info-text-2">
+                        <h2>It's me</h2>
+                        <p>
+                            Venezuelana, profissional formada no Engenheiro Industrial, trabalhadora.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -91,7 +97,8 @@
     </div>
     <!-- Fin Experiencia -->
     <!--Inicio projetos-->
-    <div id="project">
+    <div id="project"> 
+        <!-- card  -->
         <div>
             <h2>Projetos</h2>
             <div id="projetos">
@@ -115,11 +122,11 @@
                         <div>
                             <p><span>Ou se prefere, tambem pode me contatar pelas redes sociais.</span></p> 
                         </div>
-                        <div>
+                        <div class="redes">
                             <!-- <div class="info_contato contact-red "> -->
-                                <div><p><a href="https:/wa.me/5511988930894" target="_blank"><img src="IMAGEN/whatsapp.png" alt="WhatsApp"></a></p></div>
-                                <div><p><a href="https://www.facebook.com/yesikadhc/" target="_blank"><img src="IMAGEN/facebook.jpg" alt="Facebook"></a></p></div>
-                                <div><p><a href="https://www.instagram.com/heryesika/" target="_blank"><img src="IMAGEN/instagram.jpeg" alt="Intagram"></a></p></div>
+                                <div class="iconos"><p><a href="https:/wa.me/5511988930894" target="_blank"><img class="red-icon" src="IMAGEN/whatsapp.png" alt="WhatsApp"></a></p></div>
+                                <div class="iconos"><p><a href="https://www.facebook.com/yesikadhc/" target="_blank"><img class="red-icon" src="IMAGEN/facebook.jpg" alt="Facebook"></a></p></div>
+                                <div class="iconos"><p><a href="https://www.instagram.com/heryesika/" target="_blank"><img class="red-icon" src="IMAGEN/instagram.jpeg" alt="Intagram"></a></p></div>
                             <!-- </div> -->
                         </div>
                     </div>
